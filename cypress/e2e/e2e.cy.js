@@ -10,7 +10,7 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
         cy.get(':nth-child(4) > .page-numbers').click()
 
         cy.get('[class="product-block grid"]')
-            .contains('Balboa Persistence Tee').click()
+            .contains('Deion Long-Sleeve EverCool™ Tee').click()
         cy.get('.button-variable-item-S').click()
         cy.get('.button-variable-item-Green').click()
         cy.get('.input-text').clear().type(1)
@@ -21,9 +21,9 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
         cy.get(':nth-child(4) > .page-numbers').click()
 
         cy.get('[class="product-block grid"]')
-            .contains('Autumn Pullie').click()
+            .contains('Electra Bra Top').click()
         cy.get('.button-variable-item-M').click()
-        cy.get('.button-variable-item-Red').click()
+        cy.get('.button-variable-item-Black').click()
         cy.get('.input-text').clear().type(1)
         cy.get('.single_add_to_cart_button').click()
         cy.get('.dropdown-toggle > .mini-cart-items').should('contain', 2)
@@ -32,7 +32,7 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
         cy.get(':nth-child(4) > .page-numbers').click()
 
         cy.get('[class="product-block grid"]')
-            .contains('Bruno Compete Hoodie').click()
+            .contains('Eos V-Neck Hoodie').click()
         cy.get('.button-variable-item-M').click()
         cy.get('.button-variable-item-Blue').click()
         cy.get('.input-text').clear().type(1)
@@ -44,9 +44,9 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
         cy.get(':nth-child(4) > .page-numbers').click()
 
         cy.get('[class="product-block grid"]')
-            .contains('Cassia Funnel Sweatshirt').click()
+            .contains('Erica Evercool Sports Bra').click()
         cy.get('.button-variable-item-M').click()
-        cy.get('.button-variable-item-Purple').click()
+        cy.get('.button-variable-item-Orange').click()
         cy.get('.input-text').clear().type(1)
         cy.get('.single_add_to_cart_button').click()
 
